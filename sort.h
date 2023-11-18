@@ -36,5 +36,7 @@ void radix_sort(int *array, size_t size);
 void bitonic_sort(int *array, size_t size);
 void quick_sort_hoare(int *array, size_t size);
 int len_list(listint_t *h);
+void quick_sort_recursive(int *array, int low, int high, size_t size);
+int lomuto_partition(int *array, int low, int high, size_t size);
 
 #endif
