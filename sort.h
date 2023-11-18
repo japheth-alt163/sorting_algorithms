@@ -1,5 +1,5 @@
-#ifndef _SORTING_H
-#define _SORTING_H
+#ifndef _SORT_H
+#define _SORT_H
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -36,5 +36,6 @@ void radix_sort(int *array, size_t size);
 void bitonic_sort(int *array, size_t size);
 void quick_sort_hoare(int *array, size_t size);
 void sort_deck(deck_node_t **deck);
+int len_list(listint_t *h);
 
 #endif
